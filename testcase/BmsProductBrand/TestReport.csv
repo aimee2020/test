@@ -1,0 +1,8 @@
+测试接口名称,测试接口地址,测试结论,测试响应结果
+新增客户,http://192.168.3.163:9999/api/bmscustom,新增客户测试失败,{"code":1,"msg":"不允许访问","data":null},
+客户名称为空,http://192.168.3.163:9999/api/bmscustom,客户名称为空测试失败,{"code":1,"msg":"JSON parse error: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries\n at [Source: (PushbackInputStream); line: 1, column: 20]","data":null},
+联系人为空,http://192.168.3.163:9999/api/bmscustom,联系人为空测试失败,{"code":1,"msg":"不允许访问","data":null},
+职位为空,http://192.168.3.163:9999/api/bmscustom,职位为空测试失败,{"code":1,"msg":"不允许访问","data":null},
+手机号为空,http://192.168.3.163:9999/api/bmscustom,手机号为空测试失败,{"code":1,"msg":"不允许访问","data":null},
+手机号不规则,http://192.168.3.163:9999/api/bmscustom,手机号不规则测试失败,{"code":1,"msg":"不允许访问","data":null},
+名字特别长,http://192.168.3.163:9999/api/bmscustom,名字特别长测试失败,{"code":1,"msg":"不允许访问","data":null},

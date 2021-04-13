@@ -1,0 +1,8 @@
+接口名称,测试描述,请求方法,接口url,预期结果(code状态),参数个数,传入值
+新增客户用例1,新增客户,post,bmscustom,0,5,"{ ""contacts"": ""aimee"", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": ""aimee"", ""phone"": ""18266647568"",""position"": ""职员""}"
+新增客户用例2,客户名称为空,post,bmscustom,0,5,"{ ""contacts"": "", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": ""aimee22"", ""phone"": ""18266647568"",""position"": ""职员""}"
+新增客户用例3,联系人为空,post,bmscustom,0,5,"{ ""contacts"": ""aimee3"", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": """", ""phone"": ""18266647568"",""position"": ""职员""}"
+新增客户用例4,职位为空,post,bmscustom,0,5,"{ ""contacts"": ""aimee4"", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": ""aimee22333"", ""phone"": ""18266647568"",""position"": """"}"
+新增客户用例5,手机号为空,post,bmscustom,0,5,"{ ""contacts"": ""aimee4"", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": ""aimee突然突然"", ""phone"": """",""position"": ""职员""}"
+新增客户用例6,手机号不规则,post,bmscustom,0,5,"{ ""contacts"": ""aimee6"", ""customTypeId"": ""55b"", ""name"": ""aimee3453554"", ""phone"": ""66647568"",""position"": ""职员""}"
+新增客户用例7,名字特别长,post,bmscustom,0,5,"{ ""contacts"": ""aimefadfdfadfadfdfadfadfadfadfdasfadfadsfadfadfdsfadfad公司的发生大声的范德萨sfe"", ""customTypeId"": ""123dfa81dcb98db6414e2d99747c255b"", ""name"": ""aimee6767"", ""phone"": ""18266647568"",""position"": ""职员""}"
